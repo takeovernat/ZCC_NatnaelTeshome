@@ -41,9 +41,9 @@ def SearchAllTickets():
             count += 1
             print(str(ticket['id']).ljust(5) + " \t" + ticket['status'].center(2) + " \t"  + ticket['created_at']) + "\t" + ticket['subject'] #print basic fields for listing
             if(count == 25): #paging mechanism
-                print("enter 1 to go to the next page")
+                print("\nenter 1 to go to the next page")
                 print("enter 2 to view a ticket")
-                print("enter 0 to go back to main menu")
+                print("enter 0 to go back to main menu\n")
                 x = raw_input() #input for secondary menu
                 try:
                     int(x)
