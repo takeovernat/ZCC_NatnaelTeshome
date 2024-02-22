@@ -1,5 +1,3 @@
-#Author - Natnael Teshome
-#email - NatnaelTeshome@my.unt.edu
 #description - requests tickets from account using Zendesk API and lists them in pages or detailed view if credentials are authorized.
 
 import requests
